@@ -10,26 +10,29 @@ html {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
+.container {
+  padding: auto;
+}
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 2)),
-    url(/images/hero-2.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
   position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 2)),
+    url(/images/hero-1.jpg);
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+
+  /* background-size: contain; */
+  height: 100vh;
+  /* margin-left: 10px; */
+  padding: 0 100px;
 
   flex: 0 0 0 20;
   color: white;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 .nav-bar {
   display: flex;
-  padding: 50px;
+  padding: 50px 0;
   width: 100%;
   flex-flow: row;
   justify-content: flex-start;
@@ -82,10 +85,9 @@ html {
 
 .hero-content {
   position: absolute;
-  /* top: 50%;
-  left: 50%; */
-  margin: 120px;
-  top: 200px;
+  float: right;
+
+  top: 300px;
   width: 1000px;
 }
 
@@ -94,6 +96,9 @@ html {
   line-height: 1.5em;
 }
 
+.hero-content span {
+  display: block;
+}
 .hero-content p {
   line-height: 2em;
   padding-bottom: 1.4em;
@@ -104,4 +109,28 @@ html {
   padding: 10px;
   text-align: center;
   margin: 0 a;
+}
+
+.vertical-bar {
+  position: absolute;
+  height: 100%;
+  background: yellow;
+  width: 50px;
+  left: 0;
+  top: 0;
+}
+.social-icons {
+  position: absolute;
+
+  background: seashell;
+  width: 50px;
+  height: 27%;
+  bottom: 0;
+}
+
+.social-icons .fa {
+  display: block;
+  text-align: centers;
+  margin: 15px 23px;
+  padding: 2px;
 }
