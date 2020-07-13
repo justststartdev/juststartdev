@@ -1,0 +1,108 @@
+.
+{
+    margin: o;
+    padding: o;
+    list-style: none;
+    text-decoration: none;
+}
+
+body
+{
+background-image: url(linus-rogge-unsplash.jpg)
+}
+ .footer{
+     background-color: #303036;
+     height: 450px;
+ }
+
+ .box-size-it {
+    box-sizing: border-box;
+ }
+.footer-top{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.logo-text {
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 3%;
+    width: 33%;
+}
+
+.quick-links{
+width: 33%;
+}
+
+.quick-align {
+    width:130px;
+    margin: auto;
+}
+
+.quick-links div p {
+color: #ffffff;
+font-size: 14px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+transition: ease-in-out;
+transition-duration: .5s;
+}
+
+.white {
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: ease-in-out;
+    transition-duration: .5s;
+}
+
+.quick-links div p:hover {
+    font-size: 16px;
+    }
+
+.white:hover {
+    font-size: 16px;
+}
+        
+        
+
+.quick-links ul {
+    list-style-type:circle;
+}
+
+.socials{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.socials img{
+    width: 50px;
+    margin-left: 2%;
+}
+.socials img:hover{
+    transition: ease-in;
+    transition-duration: .2s;
+    transform: scale(1.3);
+    margin-bottom: 18%;
+}
+
+.socials div{
+    margin-left: 10px;
+}
+
+
+.footer-bottom {
+    background-color: #343a40;
+    height: 50px;
+    text-align: center;
+    /* position: absolute; */
+    bottom: 0px;
+    /* left: 0px; */
+    padding: 20px;
+}
+
+.bottom-aligner {
+
+}
